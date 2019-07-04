@@ -19,7 +19,7 @@ public class TaxCalculatorTest {
         //given
         TaxCalculator taxCalculator = new TaxCalculator();
         //when
-        double tax = taxCalculator.calculate(3095);
+        double tax = taxCalculator.calculate(3094.556);
         //then
         Assert.assertEquals(tax, 1, 0.001);
 
